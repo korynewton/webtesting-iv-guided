@@ -37,7 +37,7 @@ module.exports = {
     },
   },
   production: {
-    client: 'db',
+    client: 'pg',
     connection: productionDbConnection, //object or string
     migrations: {
       directory: './data/migrations',
